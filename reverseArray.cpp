@@ -11,8 +11,8 @@ main(){
 	int i=0;
 	while(i<j){
 		swap(arr[i],arr[j]);
-		i++;
-		j--;
+		i++; //start pointer increase by one
+		j--; //end pointer decrease by one
 	}
 	for(int i=0;i<n;i++){
 		cout<<arr[i]<<" ";
